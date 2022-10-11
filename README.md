@@ -9,6 +9,7 @@ Technologies to use:
 - [ ] [Chakra UI](https://chakra-ui.com/)
 - [ ] [TypeScript](https://www.typescriptlang.org/)
 - [ ] testing = [Cypress](https://www.cypress.io/)
+- [ ] forms = <https://react-hook-form.com/get-started/>
 - [ ] TODO: add more ...
 
 ## MERN stack
