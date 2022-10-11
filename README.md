@@ -3,7 +3,7 @@
 Technologies to use:
 
 - [ ] [CRA](https://chakra-ui.com/getting-started/cra-guide) (Chakra UI with React and TypeScript template)
-- [ ] [React](https://chakra-ui.com/getting-started/cra-guide)
+- [ ] [React](https://reactjs.org/)
 - [ ] [Redux](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
 - [ ] [ReduxToolkit](https://redux-toolkit.js.org/)
 - [ ] [Chakra UI](https://chakra-ui.com/)
