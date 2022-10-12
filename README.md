@@ -1,6 +1,10 @@
 # fitness-app
 
-Technologies to use:
+## Project board
+
+- <https://github.com/users/krsiakdaniel/projects/3/views/2>
+
+## Technologies
 
 - [ ] [CRA](https://chakra-ui.com/getting-started/cra-guide) (Chakra UI with React and TypeScript template)
 - [ ] [React](https://reactjs.org/)
@@ -21,6 +25,6 @@ Use [MERN stack](https://www.mongodb.com/mern-stack).
 - React(.js) — a client-side JavaScript framework
 - Node(.js) — the premier JavaScript web server
 
-## scripts
+## Scripts
 
 - `yarn start` = runs the app in the development mode on [http://localhost:3000](http://localhost:3000)
