@@ -1,5 +1,11 @@
-# fitness-app
+# Fitness tracker web application
 
+Features:
+
+- [ ] exercises
+- [ ] workout timer
+- [ ] track calories
+- [ ] create dashboard
 ## Project board
 
 - <https://github.com/users/krsiakdaniel/projects/3/views/2>
