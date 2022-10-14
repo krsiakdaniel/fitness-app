@@ -39,7 +39,44 @@ Use [MERN stack](https://www.mongodb.com/mern-stack).
 - [packages.json](./package.json)
 - <https://github.com/krsiakdaniel/fitness-app/network/dependencies>
 
-## Scripts
+## Local development
 
-- `yarn` = Downloads dependencies
-- `yarn start` = runs the app in the development mode on [http://localhost:3000](http://localhost:3000)
+1. Install dependencies
+
+Install dependencies in root folder 
+
+```
+yarn
+```
+
+Install depdencies for frontend
+
+```
+cd frontend && yarn
+```
+
+Install backand depedencies
+
+```
+cd backend && yarn
+```
+
+2. Run the app
+
+To run the frontend (react app server - runs the app in the development mode on [http://localhost:3000](http://localhost:3000))
+
+```
+yarn start:app
+```
+
+To run backend server - runs the app in the development mode on [http://localhost:8000](http://localhost:8000))
+
+```
+yarn start:server
+```
+
+To run both backend and frontend simultaneously 
+
+```
+yarn start:dev
+```
