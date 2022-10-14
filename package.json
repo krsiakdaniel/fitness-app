@@ -8,5 +8,6 @@
   "scripts": {
     "start:app": "cd frontend && yarn start"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }

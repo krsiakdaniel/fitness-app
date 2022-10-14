@@ -1,7 +1,8 @@
 import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
+import path from 'path';
 
-dotenv.config();
+dotenv.config({path: path.join(__dirname, '../../', '.env')});
 
 const app: Express = express();
 const port = process.env.BACKEND_PORT;
