@@ -6,7 +6,8 @@
   "author": "krsiakdaniel &alexmonteirocastro",
   "private": true,
   "scripts": {
-    "start:app": "cd frontend && yarn start"
+    "start:app": "cd frontend && yarn start",
+    "start:server": "cd backend && yarn dev"
   },
   "license": "ISC",
   "dependencies": {}
