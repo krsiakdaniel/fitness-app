@@ -1,4 +1,8 @@
 import Mongoose from 'mongoose'
+import dotenv from 'dotenv';
+import path from 'path';
+
+dotenv.config({path: path.join(__dirname, '../../../', '.env.local')});
 
 let database: Mongoose.Connection
 

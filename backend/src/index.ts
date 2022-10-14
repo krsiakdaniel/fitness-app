@@ -5,7 +5,7 @@ import App from './app'
 import { logger } from './utils/Logger'
 
 
-dotenv.config({path: path.join(__dirname, '../../', '.env')});
+dotenv.config({path: path.join(__dirname, '../../', '.env.local')});
 
 const port = process.env.BACKEND_PORT || 8001;
 
