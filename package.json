@@ -7,8 +7,12 @@
   "private": true,
   "scripts": {
     "start:app": "cd frontend && yarn start",
-    "start:server": "cd backend && yarn dev"
+    "start:server": "cd backend && yarn dev",
+    "start:dev": "concurrently \"yarn start:app\" \"yarn start:server\""
   },
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^7.4.0"
+  }
 }
