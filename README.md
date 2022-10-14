@@ -1,6 +1,10 @@
-# Fitness tracker web application
+# Fitness tracker
 
-Features:
+## TODO
+
+- [ ] setup Prettier
+- [ ] setup Husky
+## Features
 
 - [ ] exercises
 - [ ] workout timer
@@ -12,15 +16,14 @@ Features:
 
 ## Technologies
 
-- [ ] [CRA](https://chakra-ui.com/getting-started/cra-guide) (Chakra UI with React and TypeScript template)
-- [ ] [React](https://reactjs.org/)
+- [x] [CRA](https://chakra-ui.com/getting-started/cra-guide) (Chakra UI with React and TypeScript template)
+- [x] [React](https://reactjs.org/)
 - [ ] [Redux](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
 - [ ] [ReduxToolkit](https://redux-toolkit.js.org/)
-- [ ] [Chakra UI](https://chakra-ui.com/)
-- [ ] [TypeScript](https://www.typescriptlang.org/)
+- [x] [Chakra UI](https://chakra-ui.com/)
+- [x] [TypeScript](https://www.typescriptlang.org/)
 - [ ] testing = [Cypress](https://www.cypress.io/)
 - [ ] forms = <https://react-hook-form.com/get-started/>
-- [ ] TODO: add more ...
 
 ## MERN stack
 
@@ -31,8 +34,12 @@ Use [MERN stack](https://www.mongodb.com/mern-stack).
 - React(.js) — a client-side JavaScript framework
 - Node(.js) — the premier JavaScript web server
 
+## Packages
+
+- [packages.json](./package.json)
+- <https://github.com/krsiakdaniel/fitness-app/network/dependencies>
+
 ## Scripts
 
 - `yarn` = Downloads dependencies
-
 - `yarn start` = runs the app in the development mode on [http://localhost:3000](http://localhost:3000)
