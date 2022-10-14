@@ -33,4 +33,6 @@ Use [MERN stack](https://www.mongodb.com/mern-stack).
 
 ## Scripts
 
+- `yarn` = Downloads dependencies
+
 - `yarn start` = runs the app in the development mode on [http://localhost:3000](http://localhost:3000)
