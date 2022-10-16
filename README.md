@@ -43,3 +43,32 @@ Use [MERN stack](https://www.mongodb.com/mern-stack).
 
 - `yarn` = Downloads dependencies
 - `yarn start` = runs the app in the development mode on [http://localhost:3000](http://localhost:3000)
+
+## Coding style
+
+In order to keep code clean and readable.
+
+### Code
+
+- use consistent naming
+- name functions so that they explain what they do
+- avoid comments if possible
+- if needed to comment some big blocks of code use <https://jsdoc.app/>
+
+## GIT messages
+
+Use messages that are short and readable.
+
+- FE = FrontEnd
+- BE = BackEnd
+- name `branch` base on task name, and keep the PR title similar
+- use folders `/` to organize branches
+- branch name is base on what you work on:
+  - `feat` = new feature
+  - `fix` = bug fixing
+  - `docs` = writing documentation
+  - `ref` = refactoring
+  - `test` = writing tests
+  - `install` = install new package or setup environment
+
+Brach name example `feat/fe-new-modal` and commit message `FE - Feat: Added new modal`. Or backend example:  `install/be-setup-server` and commit message `BE - Install: Setup server`.
