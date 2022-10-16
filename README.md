@@ -57,11 +57,13 @@ In order to keep code clean and readable.
 
 ## GIT messages
 
-Use messages that are short and readable.
+Loosely based on <https://cbea.ms/git-commit/> , Use messages that are short and readable.
 
 - FE = FrontEnd
 - BE = BackEnd
-- name `branch` base on task name, and keep the PR title similar
+- name `branch` base on task name
+- keep the PR title similar as branch name
+- use the [imperative mood](https://cbea.ms/git-commit/#imperative) in the subject line
 - use folders `/` to organize branches
 - branch name is base on what you work on:
   - `feat` = new feature
@@ -71,4 +73,4 @@ Use messages that are short and readable.
   - `test` = writing tests
   - `install` = install new package or setup environment
 
-Brach name example `feat/fe-new-modal` and commit message `FE - Feat: Added new modal`. Or backend example:  `install/be-setup-server` and commit message `BE - Install: Setup server`.
+Brach name example `feat/fe-new-modal` and commit message `FE - Feat: Add new modal`. Or backend example:  `install/be-setup-server` and commit message `BE - Install: Setup server`.
