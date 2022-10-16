@@ -12,7 +12,7 @@
 - [ ] create dashboard
 ## Project board
 
-- <https://github.com/users/krsiakdaniel/projects/3/views/2>
+- <https://github.com/users/krsiakdaniel/projects/3/views/1>
 
 ## Technologies
 
