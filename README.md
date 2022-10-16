@@ -4,12 +4,14 @@
 
 - [ ] setup Prettier
 - [ ] setup Husky
+
 ## Features
 
 - [ ] exercises
 - [ ] workout timer
 - [ ] track calories
 - [ ] create dashboard
+
 ## Project board
 
 - <https://github.com/users/krsiakdaniel/projects/3/views/1>
@@ -39,10 +41,47 @@ Use [MERN stack](https://www.mongodb.com/mern-stack).
 - [packages.json](./package.json)
 - <https://github.com/krsiakdaniel/fitness-app/network/dependencies>
 
-## Scripts
+## Local development
 
-- `yarn` = Downloads dependencies
-- `yarn start` = runs the app in the development mode on [http://localhost:3000](http://localhost:3000)
+### Install dependencies
+
+Install dependencies in root folder
+
+```bash
+yarn
+```
+
+Install dependencies for frontend
+
+```bash
+cd frontend && yarn
+```
+
+Install backend dependencies
+
+```bash
+cd backend && yarn
+```
+
+### Run the app
+
+To run the frontend (react app server - runs the app in the development mode on [http://localhost:3000](http://localhost:3000))
+
+```bash
+yarn start:app
+```
+
+To run backend server - runs the app in the development mode on [http://localhost:8000](http://localhost:8000))
+
+```bash
+yarn start:server
+```
+
+To run both backend and frontend simultaneously.
+
+```bash
+yarn start:dev
+```
 
 ## Coding style
 
