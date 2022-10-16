@@ -4,15 +4,17 @@
 
 - [ ] setup Prettier
 - [ ] setup Husky
+
 ## Features
 
 - [ ] exercises
 - [ ] workout timer
 - [ ] track calories
 - [ ] create dashboard
+
 ## Project board
 
-- <https://github.com/users/krsiakdaniel/projects/3/views/2>
+- <https://github.com/users/krsiakdaniel/projects/3/views/1>
 
 ## Technologies
 
@@ -41,42 +43,73 @@ Use [MERN stack](https://www.mongodb.com/mern-stack).
 
 ## Local development
 
-1. Install dependencies
+### Install dependencies
 
-Install dependencies in root folder 
+Install dependencies in root folder
 
-```
+```bash
 yarn
 ```
 
-Install depdencies for frontend
+Install dependencies for frontend
 
-```
+```bash
 cd frontend && yarn
 ```
 
-Install backand depedencies
+Install backend dependencies
 
-```
+```bash
 cd backend && yarn
 ```
 
-2. Run the app
+### Run the app
 
 To run the frontend (react app server - runs the app in the development mode on [http://localhost:3000](http://localhost:3000))
 
-```
+```bash
 yarn start:app
 ```
 
 To run backend server - runs the app in the development mode on [http://localhost:8000](http://localhost:8000))
 
-```
+```bash
 yarn start:server
 ```
 
-To run both backend and frontend simultaneously 
+To run both backend and frontend simultaneously.
 
-```
+```bash
 yarn start:dev
 ```
+
+## Coding style
+
+In order to keep code clean and readable.
+
+### Code
+
+- use consistent naming
+- name functions so that they explain what they do
+- avoid comments if possible
+- if needed to comment some big blocks of code use <https://jsdoc.app/>
+
+## GIT messages
+
+Loosely based on <https://cbea.ms/git-commit/> , Use messages that are short and readable.
+
+- FE = FrontEnd
+- BE = BackEnd
+- name `branch` base on task name
+- keep the PR title similar as branch name
+- use the [imperative mood](https://cbea.ms/git-commit/#imperative) in the subject line
+- use folders `/` to organize branches
+- branch name is base on what you work on:
+  - `feat` = new feature
+  - `fix` = bug fixing
+  - `docs` = writing documentation
+  - `ref` = refactoring
+  - `test` = writing tests
+  - `install` = install new package or setup environment
+
+Brach name example `feat/fe-new-modal` and commit message `FE - Feat: Add new modal`. Or backend example:  `install/be-setup-server` and commit message `BE - Install: Setup server`.

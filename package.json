@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Fitness tracking app",
   "repository": "git@github.com:krsiakdaniel/fitness-app.git",
-  "author": "krsiakdaniel &alexmonteirocastro",
+  "author": "krsiakdaniel & alexmonteirocastro",
   "private": true,
   "scripts": {
     "start:app": "cd frontend && yarn start",
