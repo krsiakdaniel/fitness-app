@@ -113,3 +113,11 @@ Loosely based on <https://cbea.ms/git-commit/> , Use messages that are short and
   - `install` = install new package or setup environment
 
 Brach name example `feat/fe-new-modal` and commit message `FE - Feat: Add new modal`. Or backend example:  `install/be-setup-server` and commit message `BE - Install: Setup server`.
+- `yarn start` = runs the app in the development mode on [http://localhost:3000](http://localhost:3000)
+
+## Database
+
+Mongo DB can be run in 2 ways:
+
+- Locally
+- On the cloud (Mongo Atlas)

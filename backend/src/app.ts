@@ -2,14 +2,17 @@ import * as bodyParser from 'body-parser'
 import express from 'express'
 import expressPinoLogger from 'express-pino-logger'
 import { logger } from './utils/Logger'
+import { FitnessPlanController } from './controller/fitness_plans.controller'
 
 class App {
     public express: express.Application
+    public fitnessPlanController: FitnessPlanController
 
     constructor(){
         this.express = express()
         this.middleware()
         this.routes()
+        this.fitnessPlanController = new FitnessPlanController()
     }
 
     // Configure express middleware
@@ -25,7 +28,7 @@ class App {
         })
 
         this.express.get('/api/fitness_plans', (req, res) => {
-            res.json([])
+            this.fitnessPlanController.getFitnessPlans().then(data => res.json(data))
         })
 
         // handling undefined routes
